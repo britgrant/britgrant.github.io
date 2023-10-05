@@ -12,12 +12,12 @@ body{
 
 /* BACKGROUND */
 main{
-    background: url(images/zion-2.jpg);
+    background: url(images/reading.png);
     background-size: cover;
 }
 
 .scrim{
-    background: rgba(0, 0, 0, .97);
+    background: rgba(0, 0, 0, .72);
 }
 header{
     height: 10vh;
@@ -173,9 +173,9 @@ a{
 .resume-secondary{
     display: none;
 }
-.section-title{
+/* .section-title{
     margin-bottom: 5%;
-}
+} */
 /* END GRID SECTION */
 
 
@@ -289,7 +289,7 @@ textarea{
 
     /* GRID MEDIA QUERIES */
     .grid{
-        grid-template-columns: .65fr .9fr;
+        grid-template-columns: .9fr .8fr;
         width: 90%;
         gap: 7%;
     }
@@ -361,6 +361,8 @@ textarea{
 }
 .section-title{
     font-size: 1.9rem;
+    margin-top: 5%;
+    margin-left: 2%;
 }
 
 /* LOSE FOR MOBILE */
