@@ -245,8 +245,17 @@ textarea{
     display: none;
 }
 
+@media only screen and (max-width: 480px) {
+
+    main{
+        background: url(images/reading-mobile.png);
+    }
+
+}
+
+
 @media only screen and (min-width: 480px) {
-        
+
         /* NAV */
         
         .side-nav{
@@ -347,6 +356,7 @@ textarea{
     h1{
         font-size: 2.5rem;
     }
+
     h2 a{
         color: white;
         font-size: 1.8rem;
@@ -368,8 +378,16 @@ textarea{
 /* LOSE FOR MOBILE */
 
 @media only screen and (max-width: 490px){
+
     .title-and-description{
         display: none;
     
+    }
+    .resume-primary h2{
+        font-size: 1.5rem;
+    }
+    .resume-primary h3{
+        font-size: 1rem;
+        margin-left: 3%;
     }
 }
